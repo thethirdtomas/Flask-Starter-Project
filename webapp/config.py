@@ -1,4 +1,4 @@
 
 class Config:
-   SECRET_KEY = 'fgfdsgmdfgio4454ikmdfs32i4m234m342'
+   SECRET_KEY = ''
    SQLALCHEMY_DATABASE_URI = ''
