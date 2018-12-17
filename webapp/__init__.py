@@ -7,8 +7,8 @@ from webapp.config import Config
 db = SQLAlchemy() # Database
 bcrypt = Bcrypt() # Encyption
 
-from flaskblog.main.routes import main
-from flaskblog.errors.handlers import errors 
+from webapp.main.routes import main
+from webapp.errors.handlers import errors 
 
 
 def create_app(config_class=Config):
